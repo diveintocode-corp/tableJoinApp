@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>User</title>
+  </head>
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <th>ユーザー名</th>
+          <td>{{ user.username }}</td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td>{{ user.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+
+    <a href="{% url 'accounts:index' %}">Back</a>
+  </body>
+
+</html>
