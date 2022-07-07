@@ -1,0 +1,22 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <p>
+      <strong>Title:</strong>
+      {{blog.title}}
+    </p>
+
+    <p>
+      <strong>Content:</strong>
+      {{blog.content}}
+    </p>
+    <a href="{% url 'blogs:index' %}">Back</a> |
+    <a href="{% url 'blogs:edit' blog.id %}">Edit</a>
+  </body>
+
+</html>
