@@ -6,12 +6,14 @@
   </head>
 
   <body>
-    <h2>会員登録</h2>
+    <h2>Sign up</h2>
     <form method="post">
       {% csrf_token %}
       {{ form.as_p }}
-      <input type="submit" value="登録">
+      <input type="submit" value="Create User">
     </form>
   </body>
+
+  <a href="{% url 'accounts:index' %}">Back</a>
 
 </html>

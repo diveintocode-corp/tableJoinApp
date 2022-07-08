@@ -2,24 +2,19 @@
 
   <head>
     <meta charset="utf-8">
-    <title>User</title>
+    <title>Account</title>
   </head>
 
   <body>
-    <table>
-      <tbody>
-        <tr>
-          <th>ユーザー名</th>
-          <td>{{ user.username }}</td>
-        </tr>
-        <tr>
-          <th>メールアドレス</th>
-          <td>{{ user.email }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <p>
+      <strong>Name:</strong>
+      {{user.username}}
+    </p>
 
-    <br>
+    <p>
+      <strong>Email:</strong>
+      {{user.email}}
+    </p>
 
     <a href="{% url 'accounts:index' %}">Back</a>
   </body>
