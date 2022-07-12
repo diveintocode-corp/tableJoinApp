@@ -1,0 +1,26 @@
+[
+  {
+    "model": "variations.variation",
+    "pk": 1,
+    "fields": {
+      "kind": "paper book",
+      "book": 1
+    }
+  },
+  {
+    "model": "variations.variation",
+    "pk": 2,
+    "fields": {
+      "kind": "PDF",
+      "book": 2
+    }
+  },
+  {
+    "model": "variations.variation",
+    "pk": 3,
+    "fields": {
+      "kind": "PDF",
+      "book": 3
+    }
+  }
+]

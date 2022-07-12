@@ -1,0 +1,22 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Book</title>
+  </head>
+
+  <body>
+    <p>
+      <strong>Title:</strong>
+      {{book.title}}
+    </p>
+
+    <p>
+      <strong>User:</strong>
+      {{book.user}}
+    </p>
+    <a href="{% url 'books:index' %}">Back</a> |
+    <a href="{% url 'books:edit' book.id %}">Edit</a>
+  </body>
+
+</html>

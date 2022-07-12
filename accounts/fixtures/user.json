@@ -1,0 +1,26 @@
+[
+  {
+    "model": "auth.user",
+    "fields": {
+      "username": "Alice",
+      "email": "alice@gmail.com",
+      "password": "password"
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "username": "Bob",
+      "email": "bob@gmail.com",
+      "password": "password"
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "username": "Cameron",
+      "email": "cameron@gmail.com",
+      "password": "password"
+    }
+  }
+]

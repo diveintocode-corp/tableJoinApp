@@ -1,0 +1,26 @@
+[
+  {
+    "model": "books.Book",
+    "pk": 1,
+    "fields": {
+      "title": "PythonBook",
+      "user": 1
+    }
+  },
+  {
+    "model": "books.Book",
+    "pk": 2,
+    "fields": {
+      "title": "DjangoGuide",
+      "user": 1
+    }
+  },
+  {
+    "model": "books.Book",
+    "pk": 3,
+    "fields": {
+      "title": "DjangoGuide",
+      "user": 2
+    }
+  }
+]

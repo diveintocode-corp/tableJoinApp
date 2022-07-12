@@ -1,0 +1,24 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Variation</title>
+  </head>
+
+  <body>
+    <p>
+      <strong>Kind:</strong>
+      {{variation.kind}}
+    </p>
+
+    <form action="{% url 'variations:delete' variation.id %}" method="post">
+      {% csrf_token %}
+      <input type="submit" value="Delete">
+    </form>
+
+    <br>
+
+    <a href="{% url 'variations:index' %}">Back</a>
+  </body>
+
+</html>
