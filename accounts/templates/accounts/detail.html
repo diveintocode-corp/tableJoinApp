@@ -10,11 +10,13 @@
       <strong>Name:</strong>
       {{user.username}}
     </p>
-
+    {% for book in user.books.all %}
+    {% for variation in book.variations.all %}
     <p>
-      <strong>Email:</strong>
-      {{user.email}}
+      {{ variation.kind}}
     </p>
+    {% endfor %}
+    {% endfor %}
 
     <a href="{% url 'accounts:index' %}">Back</a>
   </body>
